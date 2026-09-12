@@ -1,0 +1,372 @@
+I want you to improve and fix the CURRENT portfolio website that is already built in this Replit project.
+
+IMPORTANT — READ THIS CAREFULLY:
+
+DO NOT replace the current website.
+DO NOT rebuild the website from scratch.
+DO NOT create a new generic portfolio template.
+DO NOT simplify the current design.
+DO NOT remove existing sections, components, styling, animations, content structure, or features.
+
+The current website has already been restored to the previous design that I want. I only want you to EDIT, FIX, COMPLETE, and IMPROVE the existing website in-place.
+
+Before making any changes, inspect the entire existing project structure and understand how the current website works. Preserve the current design and code wherever possible. Only modify the files/components that are necessary to fix the problems described below.
+
+MY GOAL:
+This is my personal professional identity and portfolio website. I am focusing my career on Data Science, Machine Learning, Artificial Intelligence, and eventually AI/ML Engineering.
+
+The website should represent who I am, what I have learned, what I have built, my projects, certifications, achievements, education, journey, and future direction.
+
+The website is NOT supposed to be a complex software project. I want to spend my time learning and building ML/AI/Data Science projects, not learning complicated frontend development just to maintain my portfolio.
+
+==================================================
+1. PRESERVE THE CURRENT DESIGN
+==================================================
+
+Keep the current visual design and overall look of the website.
+
+Do not replace it with a simpler template.
+
+Preserve:
+- Current dark modern professional theme
+- Current color palette
+- Current typography
+- Current layout
+- Current animations
+- Current navigation
+- Current cards
+- Current spacing
+- Current responsive behavior
+- Current section structure
+- Current visual hierarchy
+
+The final result should look like the current website, only more complete, polished, functional, and professional.
+
+==================================================
+2. FIX THE PROFILE PHOTO
+==================================================
+
+The current profile image area is showing placeholder text such as:
+
+"Add your profile.jpg to /public/assets/images/"
+
+I want this to be properly structured for my real profile photo.
+
+Create a clear and simple asset location for the profile photo, for example:
+
+/public/assets/images/profile.jpg
+
+Use the image from that location in the profile section.
+
+If the actual image file is not currently available, keep a professional placeholder, but make sure that when I later upload/replace the file with:
+
+profile.jpg
+
+the website automatically displays it without requiring me to change complicated code.
+
+Do not invent or generate a fake personal photo.
+
+==================================================
+3. FIX ALL SOCIAL MEDIA AND CONTACT LINKS
+==================================================
+
+The social icons should be properly structured so I can easily add my real links later.
+
+Include clearly separated configuration for:
+- LinkedIn
+- GitHub
+- LeetCode
+- Substack
+- Email
+
+Do not invent URLs.
+
+If a real URL has not been provided, use an empty value or clearly marked placeholder in the code, but do NOT make the visible website show unnecessary messages like:
+
+"Link/File coming soon! (Placeholder)"
+
+The icons should either:
+- Work when a real URL is added
+- Or remain visually clean until I add the real URL
+
+The email icon should use a proper mailto: link when my email is added.
+
+Make sure external links open safely in a new browser tab where appropriate.
+
+==================================================
+4. FIX PROJECT CARDS
+==================================================
+
+The Projects section should remain visually rich and professional.
+
+Each project card should support:
+
+- Project title
+- Short description
+- Technologies/tools used
+- Project image or thumbnail (optional)
+- GitHub Code button
+- Live Demo button (only if a real demo exists)
+- Details button or project details section
+
+The buttons must be properly structured.
+
+Do NOT invent GitHub repositories or Live Demo URLs.
+
+If I have not yet added a URL:
+- Do not create fake links
+- Do not show broken links
+- Do not show unnecessary visible placeholder notification boxes
+
+Instead, structure the project data so I can easily add the URL later.
+
+For example, I should be able to update a simple project data/configuration section like:
+
+githubUrl: ""
+liveDemoUrl: ""
+
+and the website should automatically handle whether the button should be displayed.
+
+Do not make me search through complicated frontend code every time I add a project.
+
+==================================================
+5. FIX CERTIFICATE PDF FUNCTIONALITY
+==================================================
+
+The Certifications section should support actual PDF certificates.
+
+Create a simple and organized structure such as:
+
+/public/assets/certificates/
+
+Each certificate should support:
+- Certificate title
+- Issuing organization
+- Date
+- Short description
+- View Certificate
+- Download Certificate
+
+The PDF file should be stored in the certificates folder.
+
+For example:
+
+/public/assets/certificates/certificate-1.pdf
+
+When I later replace/add my actual PDF files, I should only need to update the filename/path in one simple place.
+
+The "View Certificate" button should open the PDF properly in the browser.
+
+The "Download" button should download the PDF properly.
+
+Do not create fake certificates or fake PDF files.
+
+Do not show the generic visible notification:
+
+"Link/File coming soon! (Placeholder)"
+
+when a certificate file is not yet available.
+
+==================================================
+6. FIX RESUME FUNCTIONALITY
+==================================================
+
+Create a proper location for my resume, such as:
+
+/public/assets/resume/resume.pdf
+
+The Resume button should be properly configured.
+
+When I upload my actual resume PDF using the expected filename/path, it should work automatically.
+
+Support:
+- View Resume
+- Download Resume
+
+Do not invent a resume file.
+
+Do not show unnecessary placeholder notifications.
+
+==================================================
+7. REMOVE THE GENERIC PLACEHOLDER NOTIFICATION
+==================================================
+
+There is currently a visible notification/message like:
+
+"Link/File coming soon! (Placeholder)"
+
+This should NOT appear as a permanent visible element on the website.
+
+Remove this generic notification from the normal website UI.
+
+If a link or file is not available yet, handle it cleanly:
+- Hide the button until a real link/file is provided
+OR
+- Keep the button disabled in a visually professional way
+
+Do not use intrusive placeholder notification boxes.
+
+==================================================
+8. MAKE THE WEBSITE EASY TO MAINTAIN
+==================================================
+
+This is extremely important.
+
+I am building this portfolio so that I can focus on Data Science, Machine Learning, AI, and AI/ML Engineering projects.
+
+I do NOT want to spend a lot of time learning frontend development just to maintain this website.
+
+Therefore, organize the content so that future updates are simple.
+
+I should be able to easily update:
+
+- Name
+- Profile photo
+- About section
+- Professional headline
+- Skills
+- Projects
+- Project descriptions
+- GitHub links
+- Live Demo links
+- Certificates
+- Certificate PDFs
+- Achievements
+- Education
+- Learning journey
+- Resume
+- LinkedIn
+- GitHub
+- LeetCode
+- Substack
+- Email
+
+Ideally, keep editable content in a clearly organized configuration/data section or simple files so I do not need to search through many different components to change basic information.
+
+Do not introduce unnecessary backend, database, authentication, or complex infrastructure.
+
+Keep the project simple to maintain.
+
+==================================================
+9. ORGANIZE ASSETS CLEARLY
+==================================================
+
+Make sure the project has a clean asset structure, for example:
+
+/public
+    /assets
+        /images
+            profile.jpg
+            project images...
+        /certificates
+            certificate-1.pdf
+            certificate-2.pdf
+        /resume
+            resume.pdf
+
+Use appropriate filenames and clear organization.
+
+The exact existing project structure may be different, so first inspect the current project and adapt it rather than blindly changing everything.
+
+Do not duplicate files unnecessarily.
+
+==================================================
+10. NAVIGATION MUST WORK
+==================================================
+
+Check the entire navigation bar.
+
+Make sure all internal navigation links correctly scroll to or navigate to the corresponding sections.
+
+Check:
+- Home
+- About
+- Skills
+- Projects
+- Experience/Journey
+- Education
+- Certifications
+- Achievements
+- Learning
+- Resume
+- Contact
+
+Only keep navigation items that actually exist in the current website.
+
+Do not create navigation links that lead nowhere.
+
+Make sure the navigation works properly on desktop and mobile.
+
+==================================================
+11. RESPONSIVE DESIGN
+==================================================
+
+Do not redesign the website.
+
+Instead, test and fix the current design for:
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile
+
+Make sure:
+- Text does not overflow
+- Cards do not break
+- Buttons remain accessible
+- Navigation works on smaller screens
+- Profile photo remains properly positioned
+- Sections have proper spacing
+- PDFs and links work on mobile
+- No horizontal scrolling appears unnecessarily
+
+==================================================
+12. IMPORTANT: DO NOT INVENT MY INFORMATION
+==================================================
+
+Do not invent:
+- Personal information
+- Social media URLs
+- GitHub repositories
+- Project links
+- Certificate URLs
+- Resume content
+- Achievements
+- Work experience
+- Education details
+
+Use only the information already present in the current project.
+
+Where information is missing, leave a clearly editable placeholder in the code/data structure, but do not display unnecessary placeholder messages on the live website.
+
+==================================================
+13. FINAL QUALITY CHECK
+==================================================
+
+After making these changes:
+
+1. Inspect the current project before modifying it.
+2. Preserve the existing design.
+3. Edit the current website instead of replacing it.
+4. Fix all broken or placeholder functionality.
+5. Make profile image integration work.
+6. Make resume PDF integration work.
+7. Make certificate PDF View/Download work.
+8. Make social links easy to configure.
+9. Make project links easy to configure.
+10. Remove the generic "Link/File coming soon! (Placeholder)" notification.
+11. Check all navigation links.
+12. Check responsive behavior.
+13. Make sure there are no broken links or console errors.
+14. Make sure the website still looks like the current restored design.
+15. Do not remove any useful existing content or sections.
+
+VERY IMPORTANT FINAL INSTRUCTION:
+
+I am NOT asking you to create a new website.
+
+I am asking you to take the website that is CURRENTLY PRESENT IN THIS REPLIT PROJECT and carefully EDIT, FIX, and COMPLETE it.
+
+The current design is the base design I want to keep.
+
+Please inspect the existing code first, then make the minimum necessary changes to fix the functionality and improve maintainability without replacing the website.

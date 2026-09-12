@@ -1,0 +1,48 @@
+Do NOT rebuild the website from scratch. Preserve the current dark theme and overall UI layout, but perform a comprehensive, high-precision upgrade based on the following verified data and strict requirements:
+
+--- VERIFIED SOURCE DATA ---
+1. Name: Shubham Kumar Jha
+2. Headline: Aspiring Data Analyst | Data Science & AI/ML Enthusiast
+3. Links to Map:
+   - LinkedIn: https://linkedin.com/in/shubham-kumar-jha-ab56b5217
+   - Linktree: https://linktr.ee/shubhamkumarjha8601
+   - LeetCode: https://leetcode.com/u/shubham_kumar_jha01/
+   - Contact Email: shubhamkumarjha8601@gmail.com
+4. Experience: Use the exact Freelance Data Analyst & Analytics Consultant timeline and tasks as written in my resume (June 2023 - Present).
+5. Education: B.Tech (SLIET Punjab, CGPA 7.858) & Diploma (SLIET Punjab, CGPA 6.70).
+6. Achievements: College Tech Event Winner, NCC 'B' & 'C' Certificate Holder.
+
+--- MANDATORY FIXES & UPGRADES ---
+
+1. HERO, PHOTO & ABOUT SECTION:
+   - Fix the missing circular avatar frame in the Hero section by correctly linking it to my uploaded profile image or setting up a clean local asset path (/public/assets/profile.jpg).
+   - Update the Hero text and About Me with the following authoritative bio:
+     "I am an Electronics & Communication Engineering graduate turned Data Analyst & Aspiring AI/ML Engineer. Leveraging a strong foundational background in signals, systems, and mathematical logic from SLIET Punjab, I specialize in transforming raw, unstructured data into actionable business intelligence using Python, SQL, Power BI, and Scikit-Learn."
+   - Add two prominent CTA buttons below the Hero text: "View Projects" (smooth scroll to #projects) and "Download Resume" (linking to my uploaded resume PDF).
+
+2. PROJECTS SECTION (HIGH-RES VISUAL FIX):
+   - Replace generic image placeholders with relevant, dynamic high-resolution tech imagery from Unsplash URLs:
+     * Coffee Shop Sales Analysis -> High-res dashboard / coffee analytics UI image.
+     * Mental Health Score Predictor -> High-res Data Science / Machine Learning neural network visual.
+     * Employee Management System -> SQL & Python code/data visual.
+     * Recommendation System -> AI/ML algorithm data network visual.
+   - For each project card, add tags for tech stack used (Python, SQL, Scikit-Learn, Power BI) and placeholder buttons for "GitHub Code" and "Live Demo".
+
+3. CERTIFICATIONS SECTION (VISIBLE INTERACTIVE GRID):
+   - Make the Certificates section fully visible with neat card components for:
+     1. Introduction to Data Science / Machine Learning Using Python - Simplilearn
+     2. Software Engineer / Software Engineer Intern - HackerRank
+     3. Problem Solving (Intermediate) - HackerRank
+     4. Advanced Microsoft Excel for Data Analysis - 365 Data Science
+   - Include a visual credential badge icon for each certificate card.
+
+4. LEETCODE & CODING STATS INTEGRATION:
+   - Add a "Problem Solving & Coding" section or card featuring my LeetCode profile link (https://leetcode.com/u/shubham_kumar_jha01/) with visual badges highlighting SQL and Data Structure Problem Solving.
+
+5. CONTACT FORM (ROBUST EMAIL DELIVERY):
+   - Configure the 'Get In Touch' form using a clean HTML/JS mail submission script (or mailto fallback targeting shubhamkumarjha8601@gmail.com) so that messages submitted through the form trigger directly to my email.
+   - Show a clear green "Message Sent Successfully!" confirmation alert on screen after submission.
+
+6. RESPONSIVENESS & SOCIAL LINKS:
+   - Ensure header and footer contain active clickable social icons for LinkedIn, LeetCode, Linktree, and Email.
+   - Verify 100% mobile and desktop responsiveness across all sections.
