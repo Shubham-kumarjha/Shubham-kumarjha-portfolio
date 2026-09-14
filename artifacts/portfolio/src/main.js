@@ -20,16 +20,15 @@ document.addEventListener('DOMContentLoaded', () => {
   // ── 1. STATIC TEXT ────────────────────────────────────────────
   document.getElementById('heroHeadline').textContent  = personalInfo.headline;
   document.getElementById('heroBio').textContent       = personalInfo.bio;
+  document.getElementById('heroLocation').innerHTML     = `<i class="fa-solid fa-location-dot"></i> ${personalInfo.location}`;
   document.getElementById('footerName').textContent    = personalInfo.name;
   document.getElementById('footerTagline').textContent = personalInfo.headline;
   document.getElementById('currentYear').textContent   = new Date().getFullYear();
 
   document.getElementById('aboutText').innerHTML = `
     <p>${personalInfo.bio}</p>
-    <p>My experience includes analyzing datasets with SQL and Python, building Power BI dashboards,
-    creating basic Scikit-Learn models, and performing exploratory data analysis to uncover
-    business trends and actionable insights.</p>
-    <p><strong>Current focus:</strong> ${personalInfo.currentStatus}</p>
+    <p><strong>Location:</strong> ${personalInfo.location}</p>
+    <p><strong>Target role:</strong> ${personalInfo.headline}</p>
   `;
 
 
@@ -247,18 +246,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
   learningTopics.current.forEach(topic => {
     const el = document.createElement('div');
-    el.className = 'progress-item';
-    el.innerHTML = `
-      <div class="progress-info">
-        <span>${topic.emoji} ${topic.name}</span>
-        <span>${topic.progress}%</span>
-      </div>
-      <div class="progress-bar-bg">
-        <div class="progress-bar-fill" data-width="${topic.progress}%"></div>
-      </div>
-    `;
+    el.className = 'upcoming-item';
+    el.innerHTML = `<span>${topic.emoji}</span> ${topic.name}`;
     currentLearningContainer.appendChild(el);
   });
+  currentLearningContainer.className = 'upcoming-list';
 
   learningTopics.upcoming.forEach(topic => {
     const el = document.createElement('div');
@@ -270,7 +262,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // ── 11. RESUME ────────────────────────────────────────────────
   // Checks whether the PDF file actually exists before showing buttons.
-  // To enable: drop resume.pdf into /public/assets/resume/ — that's it.
+  // To enable: drop resume.pdf into /public/ — that's it.
   // resumePath is set in personalInfo inside data.js.
   const viewResumeBtn     = document.getElementById('viewResumeBtn');
   const downloadResumeBtn = document.getElementById('downloadResumeBtn');
@@ -289,17 +281,27 @@ document.addEventListener('DOMContentLoaded', () => {
           if (downloadResumeBtn) {
             downloadResumeBtn.href          = personalInfo.resumePath;
             downloadResumeBtn.style.display = 'inline-flex';
-            downloadResumeBtn.setAttribute('download', '');
+            downloadResumeBtn.setAttribute('download', 'Shubham_Kumar_Jha_Resume.pdf');
+            downloadResumeBtn.setAttribute('target', '_blank');
+            downloadResumeBtn.setAttribute('rel', 'noopener noreferrer');
           }
           if (heroResumeBtn) {
             heroResumeBtn.href = personalInfo.resumePath;
             heroResumeBtn.style.display = 'inline-flex';
+            heroResumeBtn.setAttribute('download', 'Shubham_Kumar_Jha_Resume.pdf');
+            heroResumeBtn.setAttribute('target', '_blank');
+            heroResumeBtn.setAttribute('rel', 'noopener noreferrer');
           }
-          if (navResumeCta) navResumeCta.href = personalInfo.resumePath;
+          if (navResumeCta) {
+            navResumeCta.href = personalInfo.resumePath;
+            navResumeCta.setAttribute('download', 'Shubham_Kumar_Jha_Resume.pdf');
+            navResumeCta.setAttribute('target', '_blank');
+            navResumeCta.setAttribute('rel', 'noopener noreferrer');
+          }
         } else {
           resumeButtons.innerHTML =
             `<p class="resume-soon">Resume coming soon.<br>
-             <small>Drop <code>resume.pdf</code> into <code>/public/assets/resume/</code> to enable the buttons.</small></p>`;
+             <small>Drop <code>resume.pdf</code> into <code>/public/</code> to enable the buttons.</small></p>`;
           if (heroResumeBtn) heroResumeBtn.style.display = 'none';
           if (navResumeCta) navResumeCta.style.display = 'none';
         }
@@ -307,7 +309,7 @@ document.addEventListener('DOMContentLoaded', () => {
       .catch(() => {
         resumeButtons.innerHTML =
           `<p class="resume-soon">Resume coming soon.<br>
-           <small>Drop <code>resume.pdf</code> into <code>/public/assets/resume/</code> to enable the buttons.</small></p>`;
+           <small>Drop <code>resume.pdf</code> into <code>/public/</code> to enable the buttons.</small></p>`;
         if (heroResumeBtn) heroResumeBtn.style.display = 'none';
         if (navResumeCta) navResumeCta.style.display = 'none';
       });

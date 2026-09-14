@@ -14,12 +14,12 @@
 // ----------------------------------------------------------
 export const personalInfo = {
   name:          "Shubham Kumar Jha",
-  headline:      "Aspiring Data Analyst | Data Science & AI/ML Enthusiast",
+  headline:      "Data Analyst | Python • SQL • Power BI • Machine Learning",
   email:         "shubhamkumarjha8601@gmail.com",
-  location:      "Uttar Pradesh, Noida, India",
-  bio:           "I am an Electronics & Communication Engineering graduate turned Data Analyst & Aspiring AI/ML Engineer. Leveraging a strong foundational background in signals, systems, and mathematical logic from SLIET Punjab, I specialize in transforming raw, unstructured data into actionable business intelligence using Python, SQL, Power BI, and Scikit-Learn.",
-  currentStatus: "Open to opportunities in Data Analytics, Data Science, and AI/ML.",
-  resumePath:    "/assets/resume/resume.pdf"
+  location:      "Washim, Maharashtra 444505, India",
+  bio:           "Results-driven Data Analyst with a strong background in Electronics & Communication Engineering, specializing in Python, SQL, Power BI, and Machine Learning. Proven track record in developing end-to-end analytics solutions, automated data pipelines, and interactive dashboards to translate complex datasets into actionable business insights. Highly focused on process optimization, analytical rigor, and cross-functional collaboration to streamline operations, foster strong client relationships, and drive organizational goals.",
+  currentStatus: "Targeting Data Analyst opportunities focused on Python, SQL, Power BI, and Machine Learning.",
+  resumePath:    "/resume.pdf"
 };
 
 
@@ -29,7 +29,7 @@ export const personalInfo = {
 // Leave as "" to hide that icon from the website entirely.
 // ----------------------------------------------------------
 export const socialLinks = {
-  linkedin: "https://linkedin.com/in/shubham-kumar-jha-ab56b5217",
+  linkedin: "https://linkedin.com/in/shubham-kumar-jha-ab56b5",
   linktree: "https://linktr.ee/shubhamkumarjha8601",
   github:   "",
   leetcode: "https://leetcode.com/u/shubham_kumar_jha01/",
@@ -44,11 +44,9 @@ export const socialLinks = {
 // Add or remove items as needed.
 // ----------------------------------------------------------
 export const skills = {
-  "Data & Programming":     ["Python", "SQL", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
-  "Machine Learning":        ["Machine Learning", "Deep Learning", "Scikit-Learn"],
-  "Analytics & Visualization": ["Power BI", "Data Cleansing", "Data Preparation", "Data Visualization"],
-  "Professional Strengths":  ["Critical Thinking", "Problem Solving", "Effective Communication", "MS Office"],
-  "Engineering Foundation":  ["Networking", "Electronics & Communication"]
+  "Programming & Data": ["Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn)", "SQL Proficiency", "Data Preparation & Cleansing"],
+  "Analytics & Machine Learning": ["Machine Learning", "Advanced Excel Techniques"],
+  "Professional Skills": ["Analytical Skills", "Critical Thinking", "Effective Communication"]
 };
 
 
@@ -66,8 +64,8 @@ export const skills = {
 export const projects = [
   {
     id: 1,
-    title: "Employee Management System using Python and SQL",
-    shortDescription: "A Python and SQL-based employee management application.",
+    title: "Employee Management System",
+    shortDescription: "Designed a relational SQL database schema with a Python-driven query management interface for CRUD operations and real-time analytical reports.",
     technologies: ["Python", "SQL"],
     imageUrl:    "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=85",
     githubUrl:   "",
@@ -76,9 +74,9 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Coffee Shop Sales Analysis",
-    shortDescription: "A sales-analysis project focused on extracting insights from coffee shop transaction data.",
-    technologies: ["Python", "Data Analysis", "Power BI"],
+    title: "Mental Health Score Predictor & ML Pipeline",
+    shortDescription: "Built a baseline predictive classification workflow with preprocessing, feature scaling, and categorical encoding using Scikit-Learn.",
+    technologies: ["Python", "Scikit-Learn", "Machine Learning"],
     imageUrl:    "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1200&q=85",
     githubUrl:   "",
     liveDemoUrl: "",
@@ -86,24 +84,14 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Mental Health Score Predictor",
-    shortDescription: "A machine-learning project for predicting mental health scores.",
-    technologies: ["Python", "Machine Learning", "Scikit-Learn"],
+    title: "Coffee Shop Sales Analytics Dashboard",
+    shortDescription: "Constructed an interactive dashboard for store transactions, revenue spikes, and customer sales patterns using Advanced Excel and Power BI DAX metrics.",
+    technologies: ["Power BI", "Advanced Excel", "DAX"],
     imageUrl:    "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?auto=format&fit=crop&w=1200&q=85",
     githubUrl:   "",
     liveDemoUrl: "",
     detailsUrl:  ""
   },
-  {
-    id: 4,
-    title: "Recommendation System",
-    shortDescription: "A recommendation-system project for generating relevant suggestions from data.",
-    technologies: ["Python", "Machine Learning"],
-    imageUrl:    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=85",
-    githubUrl:   "",
-    liveDemoUrl: "",
-    detailsUrl:  ""
-  }
 ];
 
 
@@ -115,44 +103,44 @@ export const projects = [
 // ----------------------------------------------------------
 export const timeline = [
   {
-    year: "2016–2017",
+    year: "07/2017",
     title: "Class 10 — Aditya Birla Intermediate College",
-    description: "Completed Class 10 with 71.5%, studying Mathematics and Science.",
+    description: "Math and Science · Sonebhadra, Uttar Pradesh, India · 71.5%.",
     type: "education",
     icon: "🎓"
   },
   {
-    year: "2017–2020",
+    year: "06/2020",
     title: "Diploma in Electronics & Communication Engineering",
-    description: "Sant Longowal Institute of Engineering & Technology, Sangrur, Punjab · CGPA 6.70.",
+    description: "Sant Longowal Institute of Engineering & Technology · Sangrur, Punjab, India · CGPA 6.70.",
     type: "education",
     icon: "📘"
   },
   {
-    year: "May–Jun 2019",
-    title: "Internship Training — BSNL",
-    description: "Worked on wireless communication and networking basics during internship training in Muzaffarpur, Bihar.",
+    year: "May 2019 – Jun 2019",
+    title: "Network & Telecom Trainee — BSNL",
+    description: "Understood wireless network infrastructure, routing, and data transmission protocols · Muzaffarpur, Bihar, India.",
     type: "learning",
     icon: "📡"
   },
   {
-    year: "2020–2023",
+    year: "06/2023",
     title: "B.Tech in Electronics & Communication Engineering",
-    description: "Sant Longowal Institute of Engineering & Technology, Sangrur, Punjab · CGPA 7.858.",
+    description: "Sant Longowal Institute of Engineering & Technology · Sangrur, Punjab, India · CGPA 7.858.",
     type: "education",
     icon: "🏆"
   },
   {
-    year: "Jun–Jul 2022",
-    title: "Industrial Training — Sarpweb Technology",
-    description: "Completed industrial training in Internet of Things in Hajipur, Bihar.",
+    year: "Jun 2022 – Jul 2022",
+    title: "IoT & Embedded Systems Intern — Sarpweb Technology",
+    description: "Worked on hardware-to-cloud data transmission and sensor network setup · Hajipur, Bihar, India.",
     type: "learning",
     icon: "⚙️"
   },
   {
-    year: "Jun 2023–Present",
-    title: "Freelance Data Analyst & Analytics Consultant",
-    description: "Self-employed and remote. Analyzed datasets with SQL and Python, built Power BI dashboards and basic Scikit-Learn models, and performed exploratory data analysis.",
+    year: "07/2023 – Present",
+    title: "Freelance Data & Automation Consultant",
+    description: "Self-Employed / Remote · India.<br><strong>Predictive Analytics:</strong> Conducted exploratory data analysis and implemented baseline Scikit-Learn machine learning models for accurate trend forecasting.<br><strong>Data Wrangling:</strong> Cleaned and structured large datasets using SQL and Python (Pandas/NumPy) to reveal insights into operational trends.<br><strong>Visualization:</strong> Developed dynamic Power BI dashboards to monitor business metrics and KPIs.<br><strong>Data Quality:</strong> Conducted rigorous data validation checks to ensure high dataset accuracy and integrity.",
     type: "current",
     icon: "📊"
   }
@@ -168,25 +156,25 @@ export const timeline = [
 export const certifications = [
   {
     id: 1,
-    icon:        "fa-solid fa-certificate",
-    title:       "Introduction to Data Science / Machine Learning Using Python",
-    issuer:      "Simplilearn",
-    date:        "",
+    icon:        "fa-solid fa-satellite",
+    title:       "AI/ML for Geodata Analysis",
+    issuer:      "ISRO - Indian Institute of Remote Sensing",
+    date:        "2026",
     description: "",
     pdfPath:     ""
   },
   {
     id: 2,
-    icon:        "fa-solid fa-code",
-    title:       "Software Engineer / Software Engineer Intern",
-    issuer:      "HackerRank",
-    date:        "",
+    icon:        "fa-solid fa-brain",
+    title:       "Machine Learning Specialization",
+    issuer:      "DeepLearning.AI & Coursera",
+    date:        "2026",
     description: "",
     pdfPath:     ""
   },
   {
     id: 3,
-    icon:        "fa-solid fa-brain",
+    icon:        "fa-solid fa-puzzle-piece",
     title:       "Problem Solving (Intermediate)",
     issuer:      "HackerRank",
     date:        "",
@@ -195,6 +183,24 @@ export const certifications = [
   },
   {
     id: 4,
+    icon:        "fa-solid fa-code",
+    title:       "Software Engineer Intern Certificate",
+    issuer:      "HackerRank",
+    date:        "",
+    description: "",
+    pdfPath:     ""
+  },
+  {
+    id: 5,
+    icon:        "fa-solid fa-chart-line",
+    title:       "Data Science & Machine Learning with Python",
+    issuer:      "Simplilearn",
+    date:        "",
+    description: "",
+    pdfPath:     ""
+  },
+  {
+    id: 6,
     icon:        "fa-solid fa-file-excel",
     title:       "Advanced Microsoft Excel for Data Analysis",
     issuer:      "365 Data Science",
@@ -240,15 +246,13 @@ export const achievements = [
 // ----------------------------------------------------------
 export const learningTopics = {
   current: [
-    { name: "Machine Learning",           progress: 60, emoji: "🤖" },
-    { name: "Python for Data Science",    progress: 70, emoji: "🐍" },
-    { name: "Statistics & Probability",   progress: 55, emoji: "📊" },
-    { name: "Deep Learning Fundamentals", progress: 35, emoji: "🧠" }
+    { name: "Data Analytics", emoji: "📊" },
+    { name: "Data Science", emoji: "🔬" },
+    { name: "Machine Learning", emoji: "🤖" },
+    { name: "Predictive Modeling", emoji: "📈" }
   ],
   upcoming: [
-    { name: "Natural Language Processing", emoji: "💬" },
-    { name: "Computer Vision",             emoji: "👁️" },
-    { name: "Generative AI & LLMs",        emoji: "✨" },
-    { name: "MLOps & Deployment",          emoji: "⚙️" }
+    { name: "English — Advanced (C1)", emoji: "🇬🇧" },
+    { name: "Hindi — Native", emoji: "🇮🇳" }
   ]
 };

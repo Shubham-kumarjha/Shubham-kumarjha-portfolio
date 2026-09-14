@@ -325,6 +325,17 @@ nav.scrolled {
   font-family: var(--font-display);
 }
 
+.hero-location {
+  color: var(--text-tertiary);
+  font-size: 0.95rem;
+  margin: -0.75rem auto 1.5rem;
+}
+
+.hero-location i {
+  color: var(--accent-primary);
+  margin-right: 0.35rem;
+}
+
 .hero-intro {
   font-size: 1.1rem;
   color: var(--text-secondary);
