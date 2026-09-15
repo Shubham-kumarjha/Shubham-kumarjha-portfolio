@@ -249,21 +249,22 @@ export const achievements = [
 // Update progress % (0–100) as your skills grow over time.
 // ----------------------------------------------------------
 export const learningTopics = {
-  current: [
-    { name: "Machine Learning", progress: 50, emoji: "🤖" },
-    { name: "Python for Data Science", progress: 70, emoji: "🐍" },
-    { name: "Statistics & Probability", progress: 50, emoji: "📊" },
-    { name: "Deep Learning Fundamentals", progress: 25, emoji: "🧠" }
-  ],
-  upcoming: [
-    { name: "Natural Language Processing", emoji: "💬" },
-    { name: "Computer Vision", emoji: "👁️" },
-    { name: "Generative AI & LLMs", emoji: "✨" },
-    { name: "MLOps & Deployment", emoji: "⚙️" }
-  ]
+    current: [
+        { name: "Machine Learning", progress: 50, emoji: "🤖" },
+        { name: "Python for Data Science", progress: 70, emoji: "🐍" },
+        { name: "Statistics & Probability", progress: 50, emoji: "📊" },
+        { name: "Deep Learning Fundamentals", progress: 25, emoji: "🧠" }
+    ],
+    upcoming: [
+        { name: "Natural Language Processing", emoji: "💬" },
+        { name: "Computer Vision", emoji: "👁️" },
+        { name: "Generative AI & LLMs", emoji: "✨" },
+        { name: "MLOps & Deployment", emoji: "⚙️" }
+    ]
 };
+
 export const languages = [
-  { name: "Hindi", level: "Native", emoji: "🇮🇳" },
-  { name: "English", level: "Intermediate", emoji: "🇬🇧" },
-  { name: "Punjabi", level: "Basic", emoji: "🌾" }
+    { name: "Hindi", level: "Native", emoji: "🇮🇳" },
+    { name: "English", level: "Intermediate", emoji: "🇬🇧" },
+    { name: "Punjabi", level: "Basic", emoji: "🌾" }
 ];
