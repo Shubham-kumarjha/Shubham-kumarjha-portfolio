@@ -49,7 +49,7 @@ export const skills = {
   "Machine Learning": ["Machine Learning", "Deep Learning", "Scikit-Learn"],
   "Analytics & Visualization": ["Power BI", "Data Cleansing", "Data Preparation", "Data Visualization"],
   "Professional Strengths": ["Critical Thinking", "Problem Solving", "Effective Communication", "MS Office"],
-  "Core CS & Tools": ["Data Structures & Algorithms", "SQL Databases", "Git & GitHub", "VS Code"]
+  "Core CS & Tools": ["Data Structures & Algorithms", "SQL Databases", "Git & GitHub", "VS Code"],
   "Data Infrastructure": ["PostgreSQL", "Jupyter Notebooks", "VS Code", "Git & GitHub"]
 };
 
