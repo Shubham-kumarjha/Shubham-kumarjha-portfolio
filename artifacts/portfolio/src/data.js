@@ -16,7 +16,8 @@ export const personalInfo = {
   name:          "Shubham Kumar Jha",
   headline:      "Data Analyst | Python • SQL • Power BI • Machine Learning",
   email:         "shubhamkumarjha8601@gmail.com",
-  location:      "Washim, Maharashtra 444505, India",
+  email:         "workwithshubhamjha@gmail.com",
+  location:      "Maharashtra, India",
   bio:           "Results-driven Data Analyst with a strong background in Electronics & Communication Engineering, specializing in Python, SQL, Power BI, and Machine Learning. Proven track record in developing end-to-end analytics solutions, automated data pipelines, and interactive dashboards to translate complex datasets into actionable business insights. Highly focused on process optimization, analytical rigor, and cross-functional collaboration to streamline operations, foster strong client relationships, and drive organizational goals.",
   currentStatus: "Targeting Data Analyst opportunities focused on Python, SQL, Power BI, and Machine Learning.",
   resumePath:    "/resume.pdf"
@@ -44,9 +45,12 @@ export const socialLinks = {
 // Add or remove items as needed.
 // ----------------------------------------------------------
 export const skills = {
-  "Programming & Data": ["Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn)", "SQL Proficiency", "Data Preparation & Cleansing"],
-  "Analytics & Machine Learning": ["Machine Learning", "Advanced Excel Techniques"],
-  "Professional Skills": ["Analytical Skills", "Critical Thinking", "Effective Communication"]
+  "Data & Programming": ["Python", "SQL", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
+  "Machine Learning": ["Machine Learning", "Deep Learning", "Scikit-Learn"],
+  "Analytics & Visualization": ["Power BI", "Data Cleansing", "Data Preparation", "Data Visualization"],
+  "Professional Strengths": ["Critical Thinking", "Problem Solving", "Effective Communication", "MS Office"],
+  "Core CS & Tools": ["Data Structures & Algorithms", "SQL Databases", "Git & GitHub", "VS Code"]
+  "Data Infrastructure": ["PostgreSQL", "Jupyter Notebooks", "VS Code", "Git & GitHub"]
 };
 
 
@@ -246,13 +250,20 @@ export const achievements = [
 // ----------------------------------------------------------
 export const learningTopics = {
   current: [
-    { name: "Data Analytics", emoji: "📊" },
-    { name: "Data Science", emoji: "🔬" },
-    { name: "Machine Learning", emoji: "🤖" },
-    { name: "Predictive Modeling", emoji: "📈" }
+    { name: "Machine Learning", progress: 50, emoji: "🤖" },
+    { name: "Python for Data Science", progress: 70, emoji: "🐍" },
+    { name: "Statistics & Probability", progress: 50, emoji: "📊" },
+    { name: "Deep Learning Fundamentals", progress: 25, emoji: "🧠" }
   ],
   upcoming: [
-    { name: "English — Advanced (C1)", emoji: "🇬🇧" },
-    { name: "Hindi — Native", emoji: "🇮🇳" }
+    { name: "Natural Language Processing", emoji: "💬" },
+    { name: "Computer Vision", emoji: "👁️" },
+    { name: "Generative AI & LLMs", emoji: "✨" },
+    { name: "MLOps & Deployment", emoji: "⚙️" }
   ]
 };
+export const languages = [
+  { name: "Hindi", level: "Native", emoji: "🇮🇳" },
+  { name: "English", level: "Intermediate", emoji: "🇬🇧" },
+  { name: "Punjabi", level: "Basic", emoji: "🌾" }
+];
