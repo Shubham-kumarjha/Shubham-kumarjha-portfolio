@@ -32,7 +32,7 @@ export const personalInfo = {
 export const socialLinks = {
   linkedin: "linkedin.com/in/shubham-kumar-jha-ab56b5217",
   linktree: "https://linktr.ee/shubhamkumarjha8601",
-  github:   "",
+  github:   "https://github.com/Shubham-kumarjha",
   leetcode: "https://leetcode.com/u/shubham_kumar_jha01/",
   kaggle:   "",
   x:        ""
