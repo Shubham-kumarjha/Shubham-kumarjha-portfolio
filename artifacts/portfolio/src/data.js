@@ -100,7 +100,7 @@ export const projects = [
 
 
 // ----------------------------------------------------------
-// EDUCATION & CAREER JOURNEY TIMELINE
+// EDUCATION & CAREER JOURNEY TIMELINE 
 // Edit years, titles, and descriptions to reflect your real story.
 // icon: use any single emoji.
 // type: "education" | "learning" | "current"
