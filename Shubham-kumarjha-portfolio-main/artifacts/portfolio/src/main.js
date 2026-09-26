@@ -3,6 +3,10 @@
 // PORTFOLIO LOGIC — for routine content updates, edit data.js.
 // Only edit this file if you need to change website behaviour.
 // ============================================================
+
+
+import { inject } from '@vercel/analytics';
+
 import {
   projects,
   timeline,
@@ -403,3 +407,5 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }, 100);
 });
+
+inject();
