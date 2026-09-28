@@ -72,9 +72,10 @@ To deploy this site for free using GitHub Pages:
 3. Since this uses Vite, you need to set up a GitHub Actions workflow to build and deploy to GitHub Pages. (Alternatively, run `npm run build` locally, and push the `dist/public` folder to a `gh-pages` branch).
 4. Go to your repository **Settings > Pages** and set the source to deploy from the gh-pages branch or GitHub Actions.
 
-## 🛠️ Troubleshooting
+## 🛠️ Troubleshooting 
 
 - **"My new project isn't showing up!"**
   Make sure you didn't accidentally delete a comma `,` between project blocks in `data.js`.
 - **"Images are broken / not loading"**
   Double-check the file paths. Paths should start with a forward slash: `/assets/images/...`. Ensure filenames match exactly (case-sensitive).
+  
