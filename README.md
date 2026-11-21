@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/github/license/Shubham-kumarjha/Shubham-kumarjha-portfolio?style=for-the-badge&color=blue)
 ![Last Commit](https://img.shields.io/github/last-commit/Shubham-kumarjha/Shubham-kumarjha-portfolio?style=for-the-badge)
 
-An interactive, responsive, and high-performance developer portfolio showcasing my journey, Data Science & Machine Learning projects, technical achievements, and professional expertise.
+An interactive, responsive, and high-performance developer portfolio showcasing my journey, Data Science & Machine Learning projects, technical achievements, and professional expertise.  
 
 🚀 **[Live Demo & Interactive Experience](https://shubham-kumarjha-portfolio-portfolio.vercel.app/)**
 
